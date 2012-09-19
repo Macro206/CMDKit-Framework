@@ -1,7 +1,7 @@
 CMDKit Framework
 ================
 
-A framework to help with making Objective-C programs for the UNIX Command Line.  
+The CMDKit Framework, or CommandKit Framework, is framework that helps with making Objective-C programs for the UNIX Command Line.  
 Written in Objective-C, it uses Apple's Foundation Framework that comes with every Mac.
 
 It's almost finished, so look out for its release in the near future.
