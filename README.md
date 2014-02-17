@@ -8,11 +8,11 @@ The CMDKit Framework, or Command Kit Framework, is a framework that helps make O
 
 Note:  
   
-Specifically made for Mac. It uses the Foundation Framework, so not even the source code could be recompiled in such a way that it works on Linux.
+Specifically made for Mac. It uses the Foundation Framework, which is available by default on Macs
 
 Therefore it won't work on Linux or Windows.
 
-However, you're welcome to rewrite it so that it works on other platforms. If you choose to publish the modified code, please attribute me, or even better, include a link to the original repository.
+However, you're welcome to rewrite it (e.g. in C++) so that it works on other platforms. If you choose to publish the modified code, please attribute me, or even better, include a link to the original repository.
 
 Thanks!
 
