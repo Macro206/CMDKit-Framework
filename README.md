@@ -11,7 +11,7 @@ Parses the input from argc and argv (in main()) and adds a load of useful featur
 
 ####CMDOption
 
-Holds information about a valid option, such as its "name", number of arguments, and whether it is just a single letter or a word. Used in conjunction with CMDArgumentHandle to easily see if any invalid options are present, and to acquire the arguments of a given option.
+Holds information about a valid option: its "name", number of arguments, and whether it is just a single letter or a word. Used in conjunction with CMDArgumentHandle to easily see if any invalid options are present, and to acquire the arguments of a given option.
 
 ####CMDConsoleManager
 
