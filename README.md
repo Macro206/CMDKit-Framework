@@ -3,10 +3,25 @@ CMDKit Framework
 
 The CMDKit Framework, or Command Kit Framework, is a framework that helps make Objective-C programs for the UNIX Command Line.  
 
+The framework is very simple to use. Here are the different features, and a bit about how they work:
 
+####CMDArgumentHandle
 
+Parses the input from argc and argv (in main()) and adds a load of useful features for interpreting the arguments. Maintains a list of valid options, their arguments, and can even print invalid options if they're present.
 
-Note:  
+####CMDOption
+
+Holds information about a valid option, such as its "name", number of arguments, and whether it is just a single letter or a word. Used in conjunction with CMDArgumentHandle to easily see if any invalid options are present, and to acquire the arguments of a given option.
+
+####CMDConsoleManager
+
+Manages a console and notifies the delegate of any input received. Extremely useful for using commands within a program.
+
+####CMDPrinting
+
+Various printing functions that seamlessly blend printf and new lines.
+
+###Note:  
   
 Specifically made for Mac. It uses the Foundation Framework, which is available by default on Macs
 
