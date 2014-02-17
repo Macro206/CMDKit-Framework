@@ -7,7 +7,7 @@ The framework is very simple to use. Here are the different features, and a bit 
 
 ####CMDArgumentHandle
 
-Parses the input from argc and argv (in `main()`) and adds a load of useful features for interpreting the arguments. Maintains a list of valid options, their arguments, and can even print invalid options if they're present.
+Parses the input from argc and argv in `main()` and adds a load of useful features for interpreting the arguments. Maintains a list of valid options, their arguments, and can even print invalid options if they're present.
 
 ####CMDOption
 
