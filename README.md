@@ -23,7 +23,7 @@ Various printing functions that seamlessly blend printf and new lines.
 
 ###Note:  
   
-Specifically made for Mac. It uses the Foundation Framework, which is available by default on Macs
+Specifically made for Mac. It uses the Foundation Framework, which is available by default on Macs.
 
 Therefore it won't work on Linux or Windows.
 
