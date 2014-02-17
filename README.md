@@ -21,6 +21,10 @@ Manages a console and notifies the delegate of any input received. Extremely use
 
 Various printing functions that seamlessly blend printf and new lines.
 
+###Wiki
+
+Be sure to take a look at the [wiki](https://github.com/Macro206/CMDKit-Framework/wiki) for full documentation on the various classes and protocols.
+
 ###Note:  
   
 Specifically made for Mac. It uses the Foundation Framework, which is available by default on Macs.
